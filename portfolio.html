@@ -5,38 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link href="/goit-markup-hw-02/css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <ul> 
-                <li><a href="/goit-markup-hw-02/index.html">WebStudio</a></li> 
-                <li><a href="/goit-markup-hw-02/index.html">Studio</a></li>
-                <li><a href="/goit-markup-hw-02/portfolio.html">Portafolio</a></li>
-                <li><a href="/">Contactos</a></li>
+                <li><a class="header-logo" href=/index.html">WebStudio</a></li> 
+                <li><a class="header" href="/index.html">Estudio</a></li>
+                <li><a class="header" href="/portfolio.html">Portafolio</a></li>
+                <li><a class="header" href="/">Contactos</a></li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+525555296000">+52 55 5529 6000</a>
+        <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-link" href="tel:+525555296000">+52 55 5529 6000</a>
     </header>
     <main>
         <!-- section filter -->
-        <section>
+        <div>
             <ul>
-                <li><button type="button">Todo</button></li>
-                <li><button type="button">Sitios Web</button></li>
-                <li><button type="button">Aplicaciones</button></li>
-                <li><button type="button">Diseño</button></li>
-                <li><button type="button">Marketing</button></li>
+                <li><button class="buttons" type="button">Todo</button></li>
+                <li><button class="buttons" type="button">Sitios-web</button></li>
+                <li><button class="buttons" type="button">Aplicaciones</button></li>
+                <li><button class="buttons" type="button">Diseño</button></li>
+                <li><button class="buttons" type="button">Marketing</button></li>
             </ul>
-        </section>
+        </div>
         <!-- section projects -->
         <section>
-            <img src="/goit-markup-hw-02/images/tecnoduck.jpg" alt="laptop abierta" width="370">
-            <img src="/goit-markup-hw-02/images/poster.jpg" alt="jugadores de baloncesto" width="370">
-            <img src="/goit-markup-hw-02/images/seafood.jpg" alt="logo de restaurante" width="370">
+            <img src="/images/tecnoduck.jpg" alt="laptop abierta" width="370">
+            <img src="/images/poster.jpg" alt="jugadores de baloncesto" width="370">
+            <img src="/images/seafood.jpg" alt="logo de restaurante" width="370">
             <ul>
                 <li>
                     <h4>Tecnoduck</h4>
@@ -44,15 +44,16 @@
                 </li>
                 <li>
                     <h4>Póster de Nueva Orleans vs Estrella Dorada</h4>
+                    <p>Diseño</p>
                 </li>
                 <li>
                     <h4>Restaurante Seafood</h4>
                     <p>Aplicaciones</p>
                 </li>
             </ul>
-            <img src="/goit-markup-hw-02/images/prime.jpg" alt="auriculares" width="370">
-            <img src="/goit-markup-hw-02/images/boxes.jpg" alt="par de cajas" width="370">
-            <img src="/goit-markup-hw-02/images/nolimits.jpg" alt="monitor de pc" width="370">
+            <img src="/images/prime.jpg" alt="auriculares" width="370">
+            <img src="/images/boxes.jpg" alt="par de cajas" width="370">
+            <img src="/images/nolimits.jpg" alt="monitor de pc" width="370">
             <ul>
                 <li>
                     <h4>Proyecto Prime</h4>
@@ -67,9 +68,9 @@
                     <p>Sitio-web</p>
                 </li>
             </ul>
-            <img src="/goit-markup-hw-02/images/limited.jpg" alt="libro abierto" width="370">
-            <img src="/goit-markup-hw-02/images/lab.jpg" alt="etiqueta de prenda" width="370">
-            <img src="/goit-markup-hw-02/images/growing.jpg" alt="persona tipeando en laptop" width="370">
+            <img src="/images/limited.jpg" alt="libro abierto" width="370">
+            <img src="/images/lab.jpg" alt="etiqueta de prenda" width="370">
+            <img src="/images/growing.jpg" alt="persona tipeando en laptop" width="370">
             <ul>
                 <li>
                     <h4>Edición Limitada</h4>
@@ -86,12 +87,12 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="/">WebStudio</a>
-        <address>
+    <footer class="footer">
+        <a class="footer-logo" href="/">WebStudio</a>
+        <address class="footer-address">
             Calz. Ticomán 500, Ciudad de México,<br> CDMX, México <br>
-            <a href="mailto:info@example.com">info@example.com</a> <br>
-            <a href="tel:+525555296000 ">+52 55 5529 6000 </a>
+            <a class="footer-link" href="mailto:info@example.com">info@example.com</a> <br>
+            <a class="footer-link" href="tel:+525555296000 ">+52 55 5529 6000 </a>
         </address>
     </footer>
 </body>
